@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    padding:0;
+    position: relative;
+    background:yellow;
+}
+header{
+    display: flex;
+    position: fixed;
+    top:0;
+    left:0;
+    align-items: center;
+    width: 100%;
+    height:auto;
+}
+.restauName, .mainMenu, .socials{
+    display: inline-flex;
+    flex: 2;
+    justify-content: center;
+}
+.mainMenu{
+    flex: 4;
+    justify-content: center;
+}
+.socials {
+    flex: 1.5;
+}
+nav a,
+.socials i {
+    margin: auto 10px;
+    color:#000;
+    text-decoration: none;
+}
+nav a:hover{
+    opacity:0.5;
+}
+.mainContent{
+    margin:50px auto 0;
+    background: url(../images/pizza.jpg?jkl) no-repeat;
+    background-size: cover ;
+    color:#fff;
+    padding: 50px 0 0 80px ;
+    
+}
+.bannerTitle{
+    font-size: 60px; 
+    border-bottom: 5px solid orange;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+.mainContent p{
+    padding:30px 0 100px;
+    max-width: 30vw;
+}
+.aboutUs{
+    background-color: #000;
+    color:#fff;
+}
